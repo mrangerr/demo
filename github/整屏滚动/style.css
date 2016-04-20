@@ -1,0 +1,114 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+a{
+	display: inline-block;
+}
+ul{
+	list-style: none;
+}
+h1{
+	padding-top: 40px;
+}
+body{
+	font-family: "微软雅黑";
+}
+.section{
+	text-align: center;
+}
+.section1{
+	background: url(img/hero_sunset_large_2x.jpg) no-repeat top left;
+	background-size: 100% 100%;
+}
+.section1 h1{
+	color: white;
+	font-size: 50px;
+	font-weight: normal;
+	padding-top: 70px;
+}
+.section1 p{
+	color: white;
+	font-weight: normal;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 800px;
+}
+.section1 a{
+	color: orange;
+	padding-top: 50px;
+}
+.section1 h1,p,a{
+	opacity: 0.8;
+	fliter:alpha(opacity=80);
+}
+.section2{
+	background: url(img/technology_hero_large_2x.jpg) no-repeat top left;
+	background-size: 100% 100%;
+}
+.section2 h1{
+	font-weight: normal;
+	top: 30px;
+}
+.section2 a{
+	padding-top: 50px;
+}
+.section3{
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.section3_img{
+	width: 700px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -350px;
+}
+.section3 h1{
+	font-weight: normal;
+	top: 25px;
+	padding-left: 1000px;
+}
+.section3 p{
+	display: inline-block;
+	width: 80%;
+	padding-top: 30px;
+	padding-left: 1000px;
+	padding-bottom: 15px;
+}
+.section3 a{
+	display: block;
+}
+.section4 h1{
+	font-weight: normal;
+}
+.section4 ul{
+	overflow: hidden;
+	padding-top: 90px;
+	display: table;
+	margin: 0px auto;
+}
+.section4 ul li{
+	width: 30%;
+	height: 360px;
+	background: #F2F2F2;
+	float: left;
+	margin-left: 1%;
+	text-align: center;
+}
+.section4 .watch{
+	margin-top: 30px;
+	width: 120px;
+	height: 200px;
+}
+.section4 .icon{
+	display: block;
+	padding-top: 10px;
+}
+.section4 p,a{
+	font-size: 10px;
+}
+.section4 p{
+	padding: 10px 20px 10px 20px;
+}

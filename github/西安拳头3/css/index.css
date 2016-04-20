@@ -1,0 +1,55 @@
+.navblock{
+		background: url(../images/indexImg/9_bg.png) no-repeat top left;
+		background-size: 100% 100%;
+		min-height: 600px;
+}
+.showblock{
+		background-color: black;
+}
+.navblock_logo{
+	width: 300px;
+	height: 380px;
+	margin: 50px auto;
+	margin-bottom: 50px;
+}
+.section_logo img{
+	width: 300px;
+	height: 380px;
+}
+.showblock_img{
+	overflow: hidden;
+	width: 795px;
+	height: 375px;
+	margin: 0 auto;
+}
+.showblock_img li{
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 60px;
+}
+.showblock_news{
+	text-align: center;
+}
+.showblock_news h2{
+	color: #E17618;
+	font-weight: normal;
+}
+.showblock_news .line{
+	width: 100px;
+	height: 1px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	background: white;
+	display: inline-block;
+}
+.showblock_news small{
+	display: block;
+	color: white;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.showblock_news .news_pic{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}

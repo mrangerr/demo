@@ -1,0 +1,66 @@
+/*.item_title{
+	background: rgba(255, 255, 255, 0.9); 
+}*/
+.item_describe{
+	font-weight: bold;
+	position: relative;
+	width: 100%;
+	height: 450px;
+	background: rgba(255, 255, 255, 0.9); 
+}
+.item_describe .left{
+	width: 30%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+.item_describe .right{
+	width: 34%;
+	float: right;
+	margin-right: 15%;
+	margin-top: 30px;
+}
+.item_describe .bottom{
+	position: absolute;
+	top: 170px;
+	left: 10%;
+	width: 100%;
+}
+.item_describe .bottom textarea{
+	width: 70%;
+	height: 150px;
+	border-radius: 15px;
+	margin-left: 40px;
+	border: 1px solid white;
+	padding: 5px;
+	resize: none;
+}
+.item_describe .submit{
+	position: absolute;
+	top: 400px;
+	width: 70px;
+	height: 25px;
+	border-radius: 8px;
+	color: white;
+	background: #4D4948;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.item_describe label{
+	display: block;
+	overflow: hidden;
+	margin: 10px 0px;
+}
+.item_describe label input{
+	float: right;
+	width: 68%;
+	height: 20px;
+	background: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding:1px 5px;
+}
+
+.item2{
+	display: none;
+}

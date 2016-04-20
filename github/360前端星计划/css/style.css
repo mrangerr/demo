@@ -1,0 +1,222 @@
+body,div,table,thead,tbody,tr,th,td,ol,li,div,span,img{
+	padding: 0;
+	margin: 0;
+}
+ol{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+.wrap{
+	display: table;
+	margin: 50px auto;
+
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+/*style of year*/
+.year{
+	display: inline-block;
+	float: left;
+	position: relative;
+	border: 1px solid #ccc;
+
+	margin-right: 10px;
+}
+.year span{
+	float: left;
+	padding: 5px;
+}
+.year .icon-year-down{
+	float: left;
+	padding: 5px;
+	border-left: 1px solid #ccc;
+	cursor: pointer;
+}
+.icon:hover{
+	background-color: #ccc;
+}
+ol.year-content{
+	position: absolute;
+	z-index: 10;
+	top: 29px;
+	left: -1px;
+
+	width: 85px;
+	height: 200px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	background-color: white;
+
+}
+.year-content li{
+	padding: 3px 5px;
+}
+/*年份hover样式*/
+.year-content li:hover{
+	background-color: #ccc;
+	color: white;
+	cursor: pointer;
+}
+/*style of month*/
+.month{
+	display: inline-block;
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+
+	position: relative;
+}
+.month .icon-month-left{
+	float: left;
+	padding: 5px;
+	border-right: 1px solid #ccc;
+}
+.month .month-primary{
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	padding: 5px;
+}
+.month-primary span{
+	width: 35px;
+	float: left;
+	padding:0px 5px;
+}
+.month-primary .icon-month-down{
+	float: left;
+	cursor: pointer;
+}
+.icon-month-right{
+	float: left;
+	padding: 5px;
+	border-left: 1px solid #ccc;
+}
+ol.month-content{
+	position: absolute;
+	z-index: 10;
+	top: 29px;
+	left: 26px;
+
+	width: 60px;
+	height: auto;
+	border: 1px solid #ccc;
+	background-color: white;
+
+}
+.month-content li{
+	padding: 3px 10px;
+}
+/*月份hover样式*/
+.month-content li:hover{
+	background-color: #ccc;
+	color: white;
+	cursor: pointer;
+}
+
+/*style of today*/
+.today{
+	display: inline-block;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+}
+.today span{
+	float: left;
+	padding: 5px;
+	cursor: pointer;
+}
+.today:hover{
+	background-color: #ccc;
+	color: white;
+}
+/*style of holiday*/
+.holiday{
+	display: inline-block;
+	float: right;
+	border: 1px solid #ccc;
+
+	position: relative;
+}
+.holiday span{
+	float: left;
+	width: 120px;
+	padding: 5px;
+	cursor: pointer;
+}
+.icon-holiday-down{
+	float: left;
+	padding: 5px;
+	border-left: 1px solid #ccc;
+	cursor: pointer;
+}
+.holiday-content{
+	background-color: white;
+	width: 149px;
+	height: auto;
+	border: 1px solid #ccc;
+
+	position: absolute;
+	left: -1px;
+	z-index: 10;
+}
+.holiday-content li{
+	padding: 3px 10px;
+}
+/*月份hover样式*/
+.holiday-content li:hover{
+	background-color: #ccc;
+	color: white;
+	cursor: pointer;
+}
+
+/*style of table*/
+table{
+	border:1px solid #ccc;
+	border-collapse: collapse; 
+
+	font-family: Mircsoft,微软雅黑;
+	font-size: 19px;
+
+}
+table th{
+	background-color: #FFF0F0;
+}
+table th,td{
+	width: 67px;
+	height: 60px;
+	text-align: center;
+	/*line-height: 60px;*/
+	border: 1px solid #ccc;
+	position: relative;
+}
+table tr td:hover{
+	background-color: #ccc;
+	cursor: pointer;
+}
+.other{
+	color: #999;
+	background-color: #eee;
+}
+.festivel{
+	background-color: orange;
+	font-size: 11px;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 42px;
+	height: 15px;
+	line-height: 13px;
+}
+.spring{
+	position: absolute;
+	font-size: 11px;
+	font-weight: bold;
+	bottom: 3px;
+	left: 19px;
+	width: 27px;
+	height: 15px;
+	color:#CC3333;
+
+}
